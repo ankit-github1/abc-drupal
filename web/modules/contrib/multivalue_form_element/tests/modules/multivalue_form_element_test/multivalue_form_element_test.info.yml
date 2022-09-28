@@ -1,0 +1,13 @@
+name: Multi-value form element test
+description: Test module for Multi-value form element.
+type: module
+package: Testing
+core_version_requirement: ^9.3
+
+dependencies:
+  - drupal:multivalue_form_element
+
+# Information added by Drupal.org packaging script on 2022-08-02
+version: '1.0.0-beta4'
+project: 'multivalue_form_element'
+datestamp: 1659428981

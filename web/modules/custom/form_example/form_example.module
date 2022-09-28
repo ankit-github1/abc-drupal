@@ -1,0 +1,8 @@
+<?php
+use \Drupal\Core\Url;
+
+function form_example_page_attachments(array &$page) {
+ $page['#attached']['library'][] = 'form_example/form_example'; // modulename/libraryname
+ $page['#attached']['drupalSettings']['custom_variable'] = "AlertMessage";
+}
+

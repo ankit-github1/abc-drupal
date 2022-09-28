@@ -1,0 +1,26 @@
+resume_data.form:
+ path: '/resume'
+ defaults:
+   _form: '\Drupal\resume_data\Form\Cv'
+   _title: 'Resume form'
+ requirements:
+   _permission: 'access content'
+
+resume_data.resumecreate:
+  path: '/resume-create/{nid}'
+  defaults:
+    _controller: 'Drupal\resume_data\Controller\ResumeCreateController::createResume'
+    _title: 'Job Application Form'
+    nid: 0
+  requirements:
+    _permission: 'access content'
+
+# resume_data.job_form:
+#   path: '/resume-data'
+#   defaults:
+#     _form: '\Drupal\resume_data\Form\Cv'
+#      _controller: 'Drupal\cv\Controller\ResumeCreateController::createResume'
+#     # _controller: 'Drupal\resume_data\Controller\JobFormController::render'
+#     _title: 'Job Application Form'
+#   requirements:
+#     _permission: 'access content'

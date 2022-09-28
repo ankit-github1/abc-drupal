@@ -1,0 +1,11 @@
+<?php
+    function resume_theme(){
+        return array(
+            'resumearray'=>array(
+                'variables'=>array(
+                    'xyz'=>array(),
+                ),
+                'template'=>'resume',
+            ),
+        );
+    }

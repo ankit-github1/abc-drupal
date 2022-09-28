@@ -1,0 +1,5 @@
+name: Resume Data
+type: module
+description: Module for implementing custom form for resume data.
+core_version_requirement: ^8.8 || ^9
+package: Custom

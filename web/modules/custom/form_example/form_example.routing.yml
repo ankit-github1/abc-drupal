@@ -1,0 +1,19 @@
+form_example.custom_form:
+  path: '/student/form'
+  defaults:
+    _title: 'Student Form'
+    _form: '\Drupal\form_example\Form\StudentForm'
+  requirements:
+    _permission: 'access content'
+    _role: 'authenticated'
+
+
+
+form_example.custom_form1:
+  path: '/ajax/form'
+  defaults:
+    _title: 'Ajax Form'
+    _form: '\Drupal\form_example\Form\AjaxForm'
+  requirements:
+    _permission: 'access content'
+    _role: 'authenticated'
