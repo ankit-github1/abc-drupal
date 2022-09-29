@@ -1,4 +1,4 @@
-This directory structure contains the settings and configuration files specific
+This directory structurecontains the settings and configuration files specific
 to your site or sites and is an integral part of multisite configurations.
 
 It is now recommended to place your custom and downloaded extensions in the

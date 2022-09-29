@@ -76,7 +76,7 @@ class ResumeForm extends FormBase {
     $form['candidate_dob'] = array (
       '#type' => 'date',
       '#title' => t('Date of Birth'),
-      '#required' => TRUE,
+
     );
     $form['achievements'] = array(
       '#type' => 'textarea',
